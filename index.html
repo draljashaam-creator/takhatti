@@ -922,7 +922,7 @@ body:not(.eval) .ev-only{display:none!important}
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const KEY='takhatti_v2';
 /* v30: centre reply hours. Fill in when confirmed, e.g. 'من الأحد إلى الخميس، ٩ صباحًا – ٩ مساءً'. */
-const CENTER_HOURS='';
+const CENTER_HOURS='من الأحد إلى الخميس، صباحًا ٩ – ١ ظهرًا، ومساءً ٦ – ٩:٣٠';
 function hoursText(){return CENTER_HOURS?'ساعات رد المركز: '+CENTER_HOURS+'. خارجها، أو إذا كنت في خطر، اتصل بـ 112.':'يرد المركز في ساعات عمله فقط. خارجها، أو إذا كنت في خطر، اتصل بـ 112.'}
 /* v30: evaluation tools are hidden from users; tap the logo 5 times to toggle them. */
 let EVAL=true;try{EVAL=localStorage.getItem('takhatti_eval')!=='0'}catch(e){}

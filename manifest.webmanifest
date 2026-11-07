@@ -1,0 +1,11 @@
+{
+  "name": "تخطّي – اعرف نفسك… وتخطّ",
+  "short_name": "تخطّي",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4F3EF",
+  "theme_color": "#1F4A5E",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
